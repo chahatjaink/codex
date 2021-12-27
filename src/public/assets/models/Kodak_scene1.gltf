@@ -1,0 +1,110 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.7.33",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Main_Building",
+      "scale": [
+        0.3314032554626465,
+        1,
+        0.3314032554626465
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 502,
+      "max": [
+        1,
+        1.7319337129592896,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 502,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 502,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 894,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6024,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6024,
+      "byteOffset": 6024
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4016,
+      "byteOffset": 12048
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1788,
+      "byteOffset": 16064
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Kodak_scene1_data.bin",
+      "byteLength": 17852
+    }
+  ]
+}
